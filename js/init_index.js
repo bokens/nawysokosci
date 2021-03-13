@@ -24,8 +24,8 @@ aboutText.forEach((text, index) => {
 slidesBody.forEach(body => {
     const slideClone = slide.cloneNode(true);
 
-    body.number ? slideClone.querySelector('.slide-number').appendChild(document.createTextNode(body.number)) : null;
-    body.title ? slideClone.querySelector('.slide-title-text').appendChild(document.createTextNode(body.title)) : null;
+    body.number ? slideClone.querySelector('.slide-number').innerHTML = body.number : null;
+    body.title ? slideClone.querySelector('.slide-title-text').innerHTML = body.title : null;
     body.text ? slideClone.querySelector('.slide-body-text').appendChild(document.createTextNode(body.text)) : null;
     body.class
         ? body.class.length > 0 ? slideClone.querySelector('.slide-body-img').classList.add(...body.class) : null
@@ -53,14 +53,14 @@ slidesBody.forEach(body => {
         body.list1.forEach(text => {
             const li = document.createElement('li');
 
-            li.appendChild(document.createTextNode(text));
+            li.innerHTML = text;
             list1.appendChild(li);
         });
 
         body.list2.forEach(text => {
             const li = document.createElement('li');
 
-            li.appendChild(document.createTextNode(text));
+            li.innerHTML = text;
             list2.appendChild(li);
         });
 

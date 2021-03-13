@@ -53,8 +53,11 @@ body {
 
 /* FONTS */
 #title .title,
+#title .title h2,
 .slide-number,
+.slide-number h2,
 .slide-title-text,
+.slide-title-text h2,
 .footer-text {
     font-size: 6rem;
     line-height: 6rem;
@@ -232,9 +235,10 @@ footer {
     padding: 0 15px;
 }
 
-#slides li {
+#slides li h3 {
     padding: 15px 0;
     border-bottom: 2px solid #FCE853;
+    font-size: 1rem;
 }
 
 #slides li:last-child {
@@ -287,6 +291,7 @@ footer {
     /* FONTS */
     #title .title,
     .slide-title-text,
+    .slide-title-text h2,
     .footer-text {
         font-size: 1.8rem;
         line-height: 1.8rem;
