@@ -18,8 +18,6 @@
         <link rel="icon" type="image/x-icon" href="favicon.ico">
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-L7G2H2L52M"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
@@ -32,17 +30,30 @@
         <div id="spinner-container">
             <div class="spinner"></div>
         </div>
+        <img class="rope-top" src="img/rope_top.svg">
+        <img class="rope-middle d-none d-lg-block" src="img/rope_middle.svg">
         <nav id="top-menu" class="d-flex align-items-center justify-content-end">
+            
             <a href="about.html" class="name"></a>
         </nav>
-        <div id="rope">
-            <img class="rope-top" src="img/rope_top.svg">
-        </div>
-        <div id="title" class="d-flex align-items-center justify-content-center">
+        <div id="title" class="about d-flex align-items-center justify-content-center">
             <div class="title"></div>
-            <a class="title-arrow" href="#gallery"><img src="img/arrow.svg"></a>
+            <a class="title-arrow" href="#text"><img src="img/arrow.svg"></a>
         </div>
-        <div id="gallery"></div>
+        <div id="text" class="row justify-content-center"></div>
+        <div id="slides" clss="d-flex flex-column px-sm-5">
+            <div class="slide-container">
+                <div class="slide-title-container d-flex align-items-center">
+                    <div class="slide-number"></div>
+                    <div class="slide-title-line"></div>
+                </div>
+                <div class="slide-title-text"></div>
+                <div class="slide-body col row no-gutters px-lg-5">
+                    <div class="slide-body-text col-lg-3 col-md-12 d-flex align-items-end"></div>
+                    <div class="slide-body-img col-lg col-md-12 d-flex align-items-end"></div>
+                </div>
+            </div>
+        </div>
         <footer>
             <div class="footer-text mb-5"></div>
             <div class="footer-bottom-menu row">
@@ -57,8 +68,8 @@
         </footer>
 
         <script src="config/main.js"></script>
-        <script src="config/gallery.js"></script>
-        <script src="js/init_gallery.js"></script>
+        <script src="config/about.js"></script>
+        <script src="js/init_about.js"></script>
         <script src="js/init_main.js"></script>
     </body>
 </html>

@@ -2,7 +2,7 @@ const logoUrl = 'img/logo.svg';
 const menuItems = [
     {
         name: 'O nas',
-        url: 'index.html'
+        url: 'about.html'
     },
     {
         name: 'Galeria',
