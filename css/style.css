@@ -281,6 +281,12 @@ footer {
     #title .title span {
         left: 22px;
     }
+
+    .contact-info {
+        font-size: 1rem;
+        line-height: 1.8rem;
+        text-transform: initial;
+    }
 }
 
 @media all and (max-width: 992px) {
@@ -299,6 +305,11 @@ footer {
 
     .footer-address {
         font-size: 0.8rem;
+    }
+
+    .contact-info {
+        font-size: 0.8rem;
+        text-transform: initial;
     }
 
     #title .title {
