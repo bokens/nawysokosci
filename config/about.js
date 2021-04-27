@@ -1,7 +1,7 @@
 const aboutTitle = '<h1>Usługi alpinistyczne Poznań</h1><br/>Nie ma dla<br/>nas rzeczy<br/><span>niemożliwych</span>';
 const aboutText = [
-    'Jesteśmy młodym i dynamicznym zespołem z wieloletnim doświadczeniem w pracach na wysokości. Wykonujemy prace w Poznaniu, Wielkopolsce i na terenie całego kraju.',
-    'Wszyscy nasi pracownicy posiadają pełen komplet uprawnień i certyfikatów do prac na wysokościach metodami dostępu linowego. Korzystamy tylko z certyfikowanego sprzętu, bezpieczeństwo nas oraz osób postronnych jest dla nas najważniejsze.'
+    '<div><h2>Prace wysokościowe - Poznań</h2> Nasza ekipa mierzy wysoko - dosłownie i w przenośni. Na terenie <strong>Poznania</strong> i całego kraju świadczymy <strong>usługi alpinistyczne</strong>. Prace na wysokościach metodami dostępu linowego to dla nas codzienność. Specjalizujemy się w precyzyjnym myciu i czyszczeniu elewacji, impregnacji kamienia, czyszczeniu powierzchni płaskich, malowaniu czy remontach dachów. Mamy również doświadczenie w wykonywaniu różnych innych prac między innymi czyszczeniu kostki brukowej, wycinaniu drzew i pielęgnacji zieleni, montażu materiałów reklamowych czy odśnieżaniu.</div>',
+    '<div><h2>Usługi alpinistyczne</h2>Nie boimy się pracy na wysokości - realizujemy każde zlecenie wymagające użycia nowoczesnych technik oraz profesjonalnego sprzętu <strong>alpinistycznego</strong>. Wykonując swoją pracę, zawsze dbamy o wysoką jakość świadczonych usług i bezpieczeństwo. Korzystamy wyłącznie z atestowanych urządzeń i akcesoriów. Zapewniamy szybkie terminy realizacji, przystępne ceny i profesjonalną obsługę. Do współpracy oraz kontaktu serdecznie zachęcamy nie tylko mieszkańców Wielkopolski, ale całej Polski!</div>'
 ]
 const slidesBody = [{
     number: '01',

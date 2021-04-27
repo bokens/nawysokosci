@@ -13,7 +13,7 @@ aboutText.forEach((text, index) => {
     const div = document.createElement('div');
     const scale = Math.floor(12 / aboutText.length);
 
-    div.appendChild(document.createTextNode(text));
+    div.innerHTML = text;
     index % 2 === 0
         ? div.classList.add('col-sm-12', `col-md-${scale}`)
         : div.classList.add('col-sm-12', `col-md-${scale}`, 'd-flex', 'align-items-end');;
