@@ -5,5 +5,6 @@ const contactTitle = '<span>Zadzwoń</span>' +
     '<br/>Dane kontaktowe:' +
     '<br/>High-workers Prace na Wysokości' +
     '<br/>ul. Chwaliszewo 15, 61-105 Poznań' +
-    '<br/>email: maciejkolos@gmail.com' +
+    '<br/><a href="mailto:maciejkolos@gmail.com">maciejkolos@gmail.com</a>' +
+    '<br/><a href="mailto:podwieszeni@wp.pl">podwieszeni@wp.pl</a>' +
     '</div>';
