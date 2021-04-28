@@ -47,7 +47,7 @@ body {
     width: 110vw;
     top: 2000px;
     right: -30px;
-    z-index: 9998;
+    z-index: 998;
     filter: drop-shadow(30px 20px 5px rgba(0, 0, 0, 0.1));
 }
 
@@ -113,7 +113,7 @@ body {
 
 nav {
     position: relative;
-    z-index: 9999;
+    z-index: 999;
 }
 
 nav .name {
@@ -209,7 +209,7 @@ footer {
     position: absolute;
     top: 92px;
     padding-left: 100px;
-    z-index: 9999;
+    z-index: 999;
 }
 
 .slide-body-img-src {
@@ -231,7 +231,7 @@ footer {
 
 #slides ul {
     list-style-type: none;
-    z-index: 9999;
+    z-index: 999;
     padding: 0 15px;
 }
 
