@@ -245,6 +245,18 @@ footer {
     border-bottom: none;
 }
 
+.offer-container {
+    position: relative;
+}
+
+.offer-title-text {
+    position: absolute;
+    top: 60px;
+    padding-left: 100px;
+    z-index: 999;
+    font-size: 1.8rem;
+}
+
 /* FOOTER */
 .footer-logo {
     width: 150px;
@@ -274,7 +286,7 @@ footer {
 }
 
 @media all and (min-width: 1024px) {
-    #title .title {
+    #title .title, .subpage-header {
         font-size: 96px;
         line-height: 95px;
     }
@@ -310,11 +322,12 @@ footer {
     .contact-info {
         font-size: 0.8rem;
         text-transform: initial;
+        line-height: 5.5vw;
     }
 
-    #title .title {
-        font-size: 11vw;
-        line-height: 9.5vw;
+    #title .title, .subpage-header {
+        font-size: 6vw;
+        line-height: 6.5vw;
     }
 
     /* MENU */
@@ -396,5 +409,17 @@ footer {
     /* ORDER */
     .slide-body-img {
         order: initial !important;
+    }
+    .offer-container {
+        position: relative;
+        min-height: 20vh;
+    }
+
+    .offer-title-text {
+        position: absolute;
+        top: 50px;
+        padding-left: 50px;
+        z-index: 999;
+        font-size: 1.2rem;
     }
 }

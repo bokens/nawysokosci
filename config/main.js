@@ -5,13 +5,17 @@ const menuItems = [
         url: '/'
     },
     {
+        name: 'Oferta',
+        url: 'oferta.html'
+    },
+    {
         name: 'Galeria',
         url: 'gallery.html'
     },
     {
         name: 'Kontakt',
-        url: 'contact.html'
-    },
+        url: 'kontakt.html'
+    }
 ];
 const footerText = '<span>Zadzwoń</span>' +
     '<br/>Maciej: <a style="white-space: nowrap" href="tel:+48507100811">507 100 811</a>' +
