@@ -6,7 +6,57 @@ const menuItems = [
     },
     {
         name: 'Oferta',
-        url: 'oferta.html'
+        url: 'oferta.html',
+        links: [
+            {
+                url: 'alpinistyczna-wycinka-drzew.html',
+                name: 'Alpinistyczna wycinka drzew'
+            },
+            {
+                url: 'cennik.html',
+                name: 'Usługi i prace alpinistyczne - Cennik'
+            },
+            {
+                url: 'czyszczenie-dachow.html',
+                name: 'Mycie i czyszczenie dachów'
+            },
+            {
+                url: 'czyszczenie-elewacji.html',
+                name: 'Mycie i czyszczenie elewacji szklanych oraz tynkowych'
+            },
+            {
+                url: 'czyszczenie-kostki-brukowej.html',
+                name: 'Mycie i czyszczenie kostki brukowej'
+            },
+            {
+                url: 'czyszczenie-paneli-fotowoltaicznych.html',
+                name: 'Mycie i czyszczenie paneli fotowoltaicznych'
+            },
+            {
+                url: 'czyszczenie-paneli-slonecznych.html',
+                name: 'Mycie i czyszczenie paneli słonecznych'
+            },
+            {
+                url: 'czyszczenie-rynien.html',
+                name: 'Czyszczenie rynien'
+            },
+            {
+                url: 'malowanie-elewacji-poznan.html',
+                name: 'Malowanie elewacji'
+            },
+            {
+                url: 'montaz-banerow-reklamowych.html',
+                name: 'Montaż banerów reklamowych'
+            },
+            {
+                url: 'mycie-okien-na-wysokosciach.html',
+                name: 'Mycie okien na wysokościach wodą demineralizowaną'
+            },
+            {
+                url: 'piaskowanie-elewacji.html',
+                name: 'Piaskowanie elewacji'
+            }
+        ]
     },
     {
         name: 'Galeria',

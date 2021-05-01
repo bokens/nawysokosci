@@ -23,6 +23,25 @@ menuItems.forEach(el => {
     a.href = el.url;
     li.appendChild(a);
     menuContainer.appendChild(li)
+
+    if (el.links != undefined) {
+        a.setAttribute('class', 'dropbtn');
+        li.setAttribute('class', 'dropdown');
+
+        const div = document.createElement('div');
+        div.setAttribute('id', 'dropdown-menu');
+        div.setAttribute('class', 'dropdown-content');
+        li.appendChild(div)
+
+        el.links.forEach(link => {
+            const aDropdown = document.createElement('a');
+            aDropdown.appendChild(document.createTextNode(link.name));
+            aDropdown.href = link.url;
+            div.appendChild(aDropdown)
+        })
+    }
+
+
 });
 
 menu.appendChild(menuContainer);
@@ -48,7 +67,7 @@ ez_consent.init(
       main: "Używamy plików cookies, aby ułatwić Ci korzystanie z naszego serwisu oraz do celów statystycznych. " +
           "Korzystając z naszej strony wyrażasz zgodę na wykorzystywanie przez nas plików cookies. " +
           "Jeśli nie blokujesz tych plików, to zgadzasz się na ich użycie oraz zapisanie w pamięci urządzenia. " +
-          "Pamiętaj, że możesz samodzielnie zarządzać cookies, zmieniając ustawienia przeglądarki.",       // The text that's shown on the banner, default: "This website uses cookies & similar."
+              "Pamiętaj, że możesz samodzielnie zarządzać cookies, zmieniając ustawienia przeglądarki.",       // The text that's shown on the banner, default: "This website uses cookies & similar."
       buttons:
       {
         ok: "ok",                   // OK button to hide the text, default: "ok"
